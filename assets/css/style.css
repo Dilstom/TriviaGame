@@ -1,0 +1,56 @@
+body {
+  
+    
+}
+.wrapper {
+    border: gray solid 3px;
+    width: 960px;
+    margin: 0 auto;
+      background-color: #EDEDED;
+    font-size: 1.4em;
+    align-content: center;
+    
+}
+#header {
+    background-color: #556E5B;
+    color: white;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+#button {
+    font-weight: 400;
+    padding: 30px;
+    float: none;
+    margin: 15% 0 15% -30%;
+    background-color:  #556E5B;
+    color: white;
+    font-size: 3em;
+    align-content: center;
+    
+    
+}
+#button1 {
+    background-color: #556E5B;
+    color: white;
+    padding: 20px;
+    margin: 30px 0 5% 35%;
+    font-size: 2em;
+}
+.row {
+    justify-content: center;
+}
+#timer, p {
+    font-size: 3em;
+    color: #556E5B;
+}
+#timer {
+    margin: 15px 0 15px 0;
+}
+.donePage {
+    text-align: center;
+    padding-top: 5%;
+}
+ #answers {
+    float: left;
+}
