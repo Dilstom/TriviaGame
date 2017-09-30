@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+var total=0;
+
+var entryCount=0;
+
+var entry;
+
+do {
+    entry=prompt("enter test score\n" + "Or enter 999 to end entries", 999);
+    enrty=parseInt(entry);
+    if (entry >=0 && entry <=100) {
+        toral=total+entry;
+        entryCount++;}
+    else if (entry !=999) {
+        alert("entry must be a valid number from 0 through 100\n" + "Or enter 999 to end entries"); }
+}
+while (entry !=999);
+
+var average=total/entryCount;
+
+average = parseInt(average);
+
+alert("average score is " + average);
+</script>
+</head>
+<body>
+    
+</body>
+</html>
